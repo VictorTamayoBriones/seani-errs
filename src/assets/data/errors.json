@@ -1,0 +1,32 @@
+[
+    {
+        "errorName" : "Error 500",
+        "solution" : "Cierra por completo el navegador y vuelve a entrar al examen por medio de este link: https://seani-uttlaxcala.vercel.app/",
+        "nota" : "Podrias llegar a presentar pequeños errores de interfaz pero traqnuilo solo son errores de interfaz, tus pregutas se guardan en la base de datos desde el momento que pulsas el botón de guardar.",
+        "path" : "err-500"
+    },
+    {
+        "errorName" : "Mis respuestas anteriores ahora no estan marcadas como contestadas",
+        "solution" : "Selecciona un inciso cualquiera y despues selecciona el inciso que consideres correcto, despues da click en guardar y podras avanzar a la siguiente pregunta",
+        "nota" : "Este proceso debe de realizarse en todas las preguntas que ya tenias anteriormente contestadas, normalmente este error sucede como consecuencia de obtener un error 500 de servidor.",
+        "path" : "err-respuestas-marcadas"
+    },
+    {
+        "errorName" : "No puedo avanzar de pregunta",
+        "solution" : "Posiblemente no puedas avanzar por que detecta que lapregunta no esta contestada, entonces selecciona un inciso cualquiera y despues selecciona el inciso que consideres correcto, despues da click en guardar y podras avanzar a la siguiente pregunta",
+        "nota" : "Este proceso debe de realizarse en todas las preguntas que ya tenias anteriormente contestadas, normalmente este error sucede como consecuencia de obtener un error 500 de servidor, Ojo, puede ser que te encuentres en la ultima pregunta del módulo, si este es el caso y no logras avanzar da click en No puedo terminar el módulo del examen.",
+        "path" : "err-no-avanza-pregunta"
+    },
+    {
+        "errorName" : "No puedo terminar el módulo del examen",
+        "solution" : "Verifica que tu cronometro muestre numeros, si tu cronometro muestra al parecido a Nan:Nan:Nan, quiere decir que ese es el error, pero traqnuilo tu progreso esta intacto, solo da click en este enlce para volver al examen: https://seani-uttlaxcala.vercel.app/ y continuar con el siguiente módulo.",
+        "nota" : "Este procesos muy seguramente necesitaras repetirlo en los módulos restantes, recuerda que aun que no puedas dar por terminado el módulo tu progreso se mantiene intacto.",
+        "path" : "err-terminar-modulo"
+    },
+    {
+        "errorName" : "Existio un error, intentalo nuevamente - alerta roja al guardar una pregunta",
+        "solution" : "Cierra por completo el navegador e ingresa nuevamente.",
+        "nota" : "Este error es poco comun, por lo que si el error persiste seria recomendable que te comuniques con nostros.",
+        "path" : "err-alerta-roja"
+    }
+]
